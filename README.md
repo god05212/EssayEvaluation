@@ -32,7 +32,7 @@ categorical_features와 numeric_features를 정의하고, MinMaxScaler와 OneHot
 Linear Regression, Random Forest, Support Vector Regressor, ElasticNet 모델을 학습합니다.  
 교차 검증을 통해 성능을 평가합니다.
 
-## 각 파일/폴더 설명
+## 파일 구조 설명
 - **/src**: 프로젝트의 핵심 코드가 포함된 폴더입니다. 데이터 처리, 모델 학습 및 평가와 관련된 코드가 이 폴더에 저장됩니다.
   - `HyperLearning_EssayEvaluation.ipynb`: 프로젝트 전체 코드가 작성된 Jupyter Notebook 파일입니다. 데이터 전처리, 분석, 모델 학습 및 평가 등의 모든 과정이 이 파일 내에서 이루어집니다.
 
