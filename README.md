@@ -45,33 +45,33 @@ Linear Regression, Random Forest, Support Vector Regressor, ElasticNet 모델을
 - **requirements.txt**: 프로젝트 실행에 필요한 Python 패키지 목록을 나열한 파일입니다. `pip install -r requirements.txt` 명령어로 필요한 패키지를 설치할 수 있습니다.
 
 ## 사용된 기술 및 라이브러리
-1. 데이터 처리 및 분석  
+**1. 데이터 처리 및 분석**  
 pandas: 데이터 프레임을 사용한 데이터 처리 및 전처리.  
 json: JSON 파일 읽기 및 파싱.  
 konlpy: 한국어 형태소 분석을 위한 Okt 형태소 분석기.  
 re: 텍스트 정규화 및 특수 문자 제거.  
 matplotlib / seaborn: 산점도.  
 
-2. 모델링  
+**2. 모델링**  
 scikit-learn  
 cross_val_score: 교차 검증을 통한 모델 성능 평가.  
 train_test_split: 데이터셋 분할.  
 
-3. 데이터 전처리  
+**3. 데이터 전처리**  
 MinMaxScaler: 수치형 데이터 정규화.  
 OneHotEncoder: 범주형 데이터 인코딩.  
 
-4. 평가 지표  
+**4. 평가 지표**  
 MSE: 모델 성능 평가 지표.  
 
-**모델**  
+**5. 모델**  
 Linear Regression  
 Random Forest Regressor  
 Support Vector Regressor  
 ElasticNet  
 
-**주요 기능**  
+**6. 주요 기능**  
 에세이 데이터 전처리 및 텍스트 정규화.  
 문단별 형태소 분석 및 불용어 제거.  
 변수 간 상관관계 시각화.  
-머신러닝 모델을 통한 에세이 점수 예측.  
+머신러닝 모델을 통한 에세이 점수 예측.
